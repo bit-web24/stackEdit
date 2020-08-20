@@ -1,0 +1,154 @@
+window {
+  background-image: none;
+  background-color: rgb(44, 44, 44);
+}
+
+#tool_bar {
+  border: hidden;
+  padding: 7px;
+}
+
+#tool_bar button {
+  margin-left: 5px;
+}
+
+#editor_box {
+  border: hidden;
+  padding: 7px;
+}
+
+#user,
+#settings {
+  color: rgb(206, 206, 206);
+  border: 2px solid black;
+  padding: 10px;
+  background-image: none;
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0px 0px 0px;
+  border-radius: 100px;
+}
+
+#user {
+  margin-top: 265px;
+}
+#user:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+#new,
+#open,
+#save,
+#help-about,
+#dialog-question,
+#settings {
+  color: rgb(206, 206, 206);
+  border: 2px solid black;
+  padding: 10px;
+  background-image: none;
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0px 0px 0px;
+}
+
+#settings:hover {
+  background-color: rgb(59, 59, 59);
+}
+#new:hover {
+  background-color: rgb(59, 59, 59);
+}
+#open:hover {
+  background-color: rgb(59, 59, 59);
+}
+#save:hover {
+  background-color: rgb(59, 59, 59);
+}
+#help-about:hover {
+  background-color: rgb(59, 59, 59);
+}
+#dialog-question:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+#project_name {
+  border: 2px solid rgb(139, 139, 139);
+  color: rgb(139, 139, 139);
+  font-family: "Quicksand Light";
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#scrolled_window{
+  border-left: 2px solid rgb(0, 0, 0);
+  background-color: white;
+}
+
+#output_window {
+  background-color: white;
+  font-size: 20px;
+}
+
+#text_view {
+  /* padding: 10px; */
+  font-size: 18px;
+  font-family: "Quicksand Light";
+  background-image: none;
+  background-color: rgb(255, 255, 255);
+}
+
+#window_icon {
+  margin-left: 5px;
+}
+
+#run, #edit {
+  box-shadow: 0px 0px 0px;
+}
+
+#cheat-sheet {
+  border: 1px solid rgb(173, 173, 173);
+  padding: 10px;
+  background-image: none;
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0px 0px 0px;
+  border-radius: 100px;
+  margin-top: 620px;
+}
+
+#cheat-sheet:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+#output_txt {
+  font-family: "Quicksand Light";
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#application_name {
+  font-size: 20px;
+  color: deepskyblue;
+  margin-left: 0px;
+}
+
+#application_version {
+  font-size: 20px;
+  color: green;
+  margin-left: 0px;
+}
+
+#application_developer {
+  font-size: 15px;
+  color: rgb(155, 155, 155);
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+#cheat_sheet_txt{
+  font-family:"Quicksand Light";
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+#cheat_sheet_scrolled_window {
+  border: hidden;
+  background-image: none;
+  background-color: rgb(255, 255, 255);
+}
